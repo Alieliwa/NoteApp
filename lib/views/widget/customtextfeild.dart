@@ -12,7 +12,7 @@ final int maxLine;
       maxLines: maxLine,
       decoration: InputDecoration(
         hintText: hint,
-        // hintStyle: TextStyle(color: kPrimaryColor,),
+        hintStyle: TextStyle(color: kPrimaryColor,),
         border: buildBorder(),
         enabledBorder:buildBorder(),
         focusedBorder: buildBorder(kPrimaryColor,),
